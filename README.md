@@ -12,7 +12,7 @@ A Transformada de Fourier é uma ferramenta matemática amplamente utilizada no 
 
 Os scripts fornecem exemplos práticos dessas aplicações, com implementações em Python.  
 
-### Primeiro Tratamento de Imagem  
+## Primeiro Tratamento de Imagem  
 
 Uma das primeiras etapas do projeto foi aplicar a Transformada de Fourier para desfocar uma imagem.
 Abaixo está o resultado:  
