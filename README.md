@@ -41,6 +41,13 @@ Abaixo está o resultado:
 ![Megadeth filtros de compressão](compressed_images_filters.png)
 ![Megadeth comprimida](compressed_images.png)
 
+## Quinto Tratamento de Imagem: NOTCH
+
+Neste processamento, o objetivo é tentar reduzir os ruídos periódicos de uma imagem através da análise do espectro de Fourier da imagem, identificando assim pontos anômalos.
+Abaixo está o resultado:
+
+![Menino com ruído](menino_sem_ruido.png)
+
 ## Como Executar  
 
 1. Certifique-se de ter Python 3.x instalado.
