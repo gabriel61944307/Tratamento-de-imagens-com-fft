@@ -48,6 +48,13 @@ Abaixo está o resultado:
 
 ![Menino com ruído](menino_sem_ruido.png)
 
+## Sexto Tratamento de Imagem: ROTAÇÃO
+
+Neste processamento, o objetivo é tentar rotacionar a imagem rotacionando o resultado da transformada de Fourier da imagem.
+Abaixo está o resultado:
+
+![Judas rotacionado](judas_rotacionado.png)
+
 ## Como Executar  
 
 1. Certifique-se de ter Python 3.x instalado.
