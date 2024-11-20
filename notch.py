@@ -29,27 +29,27 @@ plt.figure(figsize=(20, 15))
 
 # Imagem original
 plt.subplot(331), plt.imshow(image, cmap='gray')
-plt.title('Original Image'), plt.axis('off')
+plt.title('Imagem Original'), plt.axis('off')
 
 # Espectro de Fourier da imagem original
 plt.subplot(332), plt.imshow(np.log(np.abs(f_image_shifted) + 1), cmap='gray')
-plt.title('Fourier Spectrum (Original Image)'), plt.axis('off')
+plt.title('Espectro de Fourier (Imagem Original)'), plt.axis('off')
 
 # Ângulo de fase da imagem original
 plt.subplot(333), plt.imshow(np.angle(f_image), cmap='gray')
-plt.title('Phase Angle (Original Image)'), plt.axis('off')
+plt.title('Ângulo de Fase (Imagem Original)'), plt.axis('off')
 
 # Mascara
 plt.subplot(334), plt.imshow(filter_mask, cmap='gray')
-plt.title('Spacial Mask'), plt.axis('off')
+plt.title('Mascara'), plt.axis('off')
 
 # Imagem Filtrada
 plt.subplot(335), plt.imshow(np.abs(img_back), cmap='gray')
-plt.title('Filtered Image'), plt.axis('off')
+plt.title('Imagem Filtrada'), plt.axis('off')
 
 # Espectro de Fourier da imagem filtrada
 plt.subplot(336), plt.imshow(np.log(np.abs(f_image_filtered) + 1), cmap='gray')
-plt.title('Fourier Spectrum (Filtered Image)'), plt.axis('off')
+plt.title('Espectro de Fourier (Imagem Filtrada)'), plt.axis('off')
 
 plt.tight_layout()
 plt.savefig("menino_sem_ruido.png", dpi=300, bbox_inches='tight')
