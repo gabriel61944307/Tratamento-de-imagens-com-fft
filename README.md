@@ -19,6 +19,13 @@ Abaixo está o resultado:
 
 ![Credence Desfocado](Creedence_desfocado.png)
 
+## Segundo Tratamento de Imagem  
+
+Neste segundo processamento aplicamos uma mascara de realce de bordas no domínio da frequência a uma imagem.
+Abaixo está o resultado:  
+
+![Megadeth realçado](megadeth_realce.png)
+
 ## Como Executar  
 
 1. Certifique-se de ter Python 3.x instalado.
