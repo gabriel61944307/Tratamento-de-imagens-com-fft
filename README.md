@@ -10,7 +10,7 @@ A Transformada de Fourier é uma ferramenta matemática amplamente utilizada no 
 - Análise espectral de imagens.  
 - Redução de ruídos.  
 
-Os scripts fornecem exemplos práticos dessas aplicações, com implementações em Python.  
+Os scripts fornecem exemplos práticos dessas aplicações, com implementações em Python.
 
 ## Primeiro Tratamento de Imagem: DESFOQUE
 
@@ -59,6 +59,7 @@ Abaixo está o resultado:
     pip install numpy
     pip install opencv-python
     pip install matplotlib
+    pip install scipy
     ```
 2. Execute o script desejado:
    ```bash
