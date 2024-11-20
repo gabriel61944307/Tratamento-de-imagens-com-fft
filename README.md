@@ -26,6 +26,13 @@ Abaixo está o resultado:
 
 ![Megadeth realçado](megadeth_realce.png)
 
+## Terceiro Tratamento de Imagem  
+
+Neste terceiro processamento aplicamos uma mascara de detecção de bordas horizontais e uma de detecção de bordas verticais.
+Abaixo está o resultado:  
+
+![Metallica bordas](metallica_black_deteccao.png)
+
 ## Como Executar  
 
 1. Certifique-se de ter Python 3.x instalado.
