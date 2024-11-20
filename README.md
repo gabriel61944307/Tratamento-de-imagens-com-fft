@@ -12,26 +12,34 @@ A Transformada de Fourier é uma ferramenta matemática amplamente utilizada no 
 
 Os scripts fornecem exemplos práticos dessas aplicações, com implementações em Python.  
 
-## Primeiro Tratamento de Imagem  
+## Primeiro Tratamento de Imagem: DESFOQUE
 
 Uma das primeiras etapas do projeto foi aplicar a Transformada de Fourier para desfocar uma imagem.
 Abaixo está o resultado:  
 
 ![Credence Desfocado](Creedence_desfocado.png)
 
-## Segundo Tratamento de Imagem  
+## Segundo Tratamento de Imagem: REALCE DE BORDAS
 
-Neste segundo processamento aplicamos uma mascara de realce de bordas no domínio da frequência a uma imagem.
+Neste processamento aplicamos uma mascara de realce de bordas no domínio da frequência a uma imagem.
 Abaixo está o resultado:  
 
 ![Megadeth realçado](megadeth_realce.png)
 
-## Terceiro Tratamento de Imagem  
+## Terceiro Tratamento de Imagem: DETECÇÃO DE BORDAS
 
-Neste terceiro processamento aplicamos uma mascara de detecção de bordas horizontais e uma de detecção de bordas verticais.
+Neste processamento aplicamos uma mascara de detecção de bordas horizontais e uma de detecção de bordas verticais.
 Abaixo está o resultado:  
 
 ![Metallica bordas](metallica_black_deteccao.png)
+
+## Quarto Tratamento de Imagem: COMPRESSÃO
+
+Neste processamento  nós mantemos as informações da imagem que estão acima de uma intensidade no domínio da frequência, jogando fora o resto.
+Abaixo está o resultado:  
+
+![Megadeth filtros de compressão](compressed_images_filters.png)
+![Megadeth comprimida](compressed_images.png)
 
 ## Como Executar  
 
