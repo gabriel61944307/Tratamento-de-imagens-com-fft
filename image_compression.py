@@ -38,7 +38,7 @@ for i, keep in enumerate(compression_levels, start=2):
 
     # Salvando a imagem de cada compressão
     plt.subplot(1, len(compression_levels) + 1, i)
-    plt.title(f"Mantendo {keep*100}% das frequencias")
+    plt.title(f"Mantendo {keep*100}% das frequências")
     plt.imshow(image_compressed, cmap='gray')
     plt.axis('off')
 
